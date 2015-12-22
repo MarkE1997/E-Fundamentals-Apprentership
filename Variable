@@ -1,0 +1,11 @@
+public class Variable {
+
+   // This will print "The value of ExampleNumber is 0" as the output
+ 
+    public static void main(String []args) {
+	
+	int ExampleNumber = 0;  // assigns the value "0" to ExampleNumber
+	
+    System.out.println("The value of ExampleNumber is " +ExampleNumber); // prints "0" to the console 
+    }
+} 
