@@ -1,0 +1,8 @@
+public class PrintName {
+
+   // This will print 'Mark Evans' as the output
+ 
+    public static void main(String []args) {
+       System.out.println("Mark Evans"); // prints Mark Evans too the console 
+    }
+} 
