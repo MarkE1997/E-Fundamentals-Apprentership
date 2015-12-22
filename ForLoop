@@ -1,0 +1,11 @@
+public class ForLoop {
+	public static void main(String []args) {
+		
+		int i; // creates the int "i"
+		
+		for (i = 0; i < 10; i++) //"i" is assigned the value "0", if "i" is below "10" then 1 is added to it 
+		{	
+		System.out.println("The value of i is currently " +i ); // prints the current value of "i" 
+		}
+	}
+}
