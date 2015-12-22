@@ -1,0 +1,20 @@
+public class Boolean {
+    public static void main(String []args) {
+		
+		boolean f = (10<5); //assigns f the value false
+		boolean t = (20>7); //assigns t the value true
+		
+		if (f = false) {    //checks if the value of "f" is false
+			System.out.println(t); //if true displays the value of "t"
+		}
+		else {
+			System.out.println(f); //if else displays the value of "f"
+		}
+		if (t = true) {     //checks if the value of "t" is true
+			System.out.println(t); //if true displays the value of "t"
+		}
+		else {
+			System.out.println(f); //if true displays the value of "t"
+		}
+    }
+} 
