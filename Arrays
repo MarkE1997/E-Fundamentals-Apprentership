@@ -1,0 +1,16 @@
+public class Arrays {
+	public static void main(String []args) {
+		
+		int[] aryTest;			//creating the array "aryTest" with 6 units
+		aryTest = new int[6];
+		
+		
+		int i; 	//creating the int "i" to be used in the for loop
+		
+		for (i = 0; i < 6; i++) //for loop adding 1 to "i" untill it reachs the value 6
+		{
+		aryTest[i] = i + 1; // assigns the current value of "i" to a new unit in the "aryTest" array
+		System.out.println( aryTest[i] ); //displays the latest addition to the "aryTest" array
+		}
+	}
+}
