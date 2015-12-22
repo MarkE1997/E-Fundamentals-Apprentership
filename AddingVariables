@@ -1,0 +1,17 @@
+public class AddingVariables {
+
+   // This will add, multiply and devide two ints together and print the result to the console
+ 
+    public static void main(String []args) {
+	
+	int Num1 = 8; // assigns the value 8 to Num1
+	int Num2 = 4; // assigns the value 4 to Num2
+	int Num3 = (Num1 + Num2); // assigns the sum of Num1 and Num2 to Num3 
+	int Num4 = (Num1 * Num2); // assigns the multiplication of Num1 and Num2 to Num4 
+	int Num5 = (Num1 / Num2); // assigns the division of Num1 and Num2 to Num5
+	
+    System.out.println("The sum of Num1 and Num2 is " +Num3 ); // prints the sum of Num1 and Num2
+	System.out.println("The multiplication of Num1 and Num2 is " +Num4 ); // prints the multiplication of Num1 and Num2
+	System.out.println("The division of Num1 and Num2 is " +Num5 ); // prints the division of Num1 and Num2
+    }
+} 
