@@ -1,0 +1,14 @@
+import java.util.Scanner; //Importing the "Scanner" Java Utility for use in the method below.
+	
+	public class Method {
+		public static void Welcome(String name) {
+			System.out.println("Welcome " + name ); //Prints "Welcome " and the users name, entered before hand using the "main" method.
+		}
+
+		public static void main(String[] args) {  //This method is used to store the users name. It propmts the user "Input your name: " and then stores it to be called.
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Input your name: ");
+		String myName = keyboard.nextLine();
+		Welcome(myName);
+}
+}
